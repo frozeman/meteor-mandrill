@@ -5,7 +5,7 @@ Meteor package for sending email via Mandrill
 
 ##  Installation
 
-`sh $ meteor add wylio:mandrill`
+`$ meteor add wylio:mandrill`
 
 ### Example Usage for SMTP email
     # in server code
@@ -34,7 +34,7 @@ Find out what else you can send, including how to send [mc:edit](http://help.man
 
     #server code
     Meteor.Mandrill.sendTemplate({
-        "key": "YOUR_MANDRILL_API_KEY",
+        "key": "YOUR_MANDRILL_API_KEY", // optional, if you set it in with Meteor.Mandril.config() already
         "template_name": "YOUR_TEMPLATE_SLUG_NAME",
         "template_content": [
           {}
