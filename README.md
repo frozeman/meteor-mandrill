@@ -3,9 +3,12 @@ Mandrill for Meteor
 
 Meteor package for sending email via Mandrill
 
+*Note* This is a improved version of the `wylio:mandrill` package,
+with add core dependencies and an API key that the `sendTemplate` function can now use (so no manual passing it anymore necessary).
+
 ##  Installation
 
-`sh $ meteor add wylio:mandrill`
+`$ meteor add frozeman:mandrill`
 
 ### Example Usage for SMTP email
     # in server code
