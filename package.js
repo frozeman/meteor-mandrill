@@ -1,6 +1,6 @@
 Package.describe({
   "summary": "Send email via Mandrill's send-template.json",
-  "git": "https://github.com/Wylio/meteor-mandrill",
+  "git": "https://github.com/frozeman/meteor-mandrill",
   "version": "0.2.0",
   "name": "frozeman:mandrill"
 });
